@@ -492,7 +492,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #overlay {
-  background: #ffffff;
+  background: #727874;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 2000;
 }
 #overlay .content {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(114,120,116,255);
   position: relative;
   width: 100%;
   height: 100%;
@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: normal;
-  color: #0298d4;
+  color: #5946d1;
   font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
