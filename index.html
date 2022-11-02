@@ -64,11 +64,6 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<!--<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.2/css/lightgallery-bundle.min.css" />-->
-	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lightgallery-bundle.min.css" />
-	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-thumbnail.css" />
-	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-autoplay.css" />
-	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-fullscreen.css" />
-	<link type="text/css" rel="stylesheet" href="lib/lightgallery.js/dist/css/lg-transitions.css" />
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -279,13 +274,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Galeri Foto</h2>
+					<h2>Galeri Video</h2>
 					<h3 style="color: #bf9b73">Khitbah Day - 7 Agustus 2022</h3>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md animate-box">
 				<div class="col-md-12">
-					<div id="inline-gallery-container" class="inline-gallery-container" style="position: relative; height: 500px"></div>
+					<div id="inline-gallery-container" class="inline-gallery-container" style="position: relative; height: 500px"><p align="center"><iframe class="frame"
+                     width="640" height="360" src="https://www.youtube.com/embed/U4rf9Lqa7yE?modestbranding=1&rel=0&fs=0&color=white&controls=0&disablekb=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe></p></div>
 				</div>
 			</div>
 		</div>
@@ -501,10 +498,10 @@
 <!-- Main -->
 <script src="js/main.js"></script>
 
-<script src="lib/lightgallery.js/dist/lightgallery.min.js"></script>
+<!-- <script src="lib/lightgallery.js/dist/lightgallery.min.js"></script>
 <script src="lib/lightgallery.js/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
 <script src="lib/lightgallery.js/dist/plugins/autoplay/lg-autoplay.min.js"></script>
-<script src="lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
+<script src="lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 
 <script>
@@ -638,74 +635,18 @@
 	}
 </script> -->
 
-<script type="text/javascript">
-	const lgContainer = document.getElementById('inline-gallery-container');
-	const inlineGallery = lightGallery(lgContainer, {
-		container: lgContainer,
-		dynamic: true,
-		thumbnail : true,
-		// Turn off hash plugin in case if you are using it
-		// as we don't want to change the url on slide change
-		hash: false,
-		// Do not allow users to close the gallery
-		closable: false,
-		// Add maximize icon to enlarge the gallery
-		showMaximizeIcon: true,
-		download : false,
-		// Append caption inside the slide item
-		// to apply some animation for the captions (Optional)
-		appendSubHtmlTo: '.lg-item',
-		// Delay slide transition to complete captions animations
-		// before navigating to different slides (Optional)
-		// You can find caption animation demo on the captions demo page
-		slideDelay: 400,
-		dynamicEl: [
-			{
-				src: 'images/gallery/neng1.jpg',
-				thumb: 'images/gallery/neng1.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},{
-				src: 'images/gallery/khitbah1.jpg',
-				thumb: 'images/gallery/khitbah1.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},{
-				src: 'images/gallery/khitbah2.jpg',
-				thumb: 'images/gallery/khitbah2.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},{
-				src: 'images/gallery/khitbah3.jpg',
-				thumb: 'images/gallery/khitbah3.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},{
-				src: 'images/gallery/khitbah4.jpg',
-				thumb: 'images/gallery/khitbah4.jpg',
-				/*subHtml: `<div class="lightGallery-captions">
-					<h4>Caption 1</h4>
-					<p>Description of the slide 1</p>
-				</div>`,*/
-			},
-		],
-	});
-
-	// Since we are using dynamic mode, we need to programmatically open lightGallery
-	inlineGallery.openGallery();
-</script>
 
 </body>
 </html>
-
+<style>
+            .frame{
+                width: 800px;
+                height: 400px;
+                margin-right: 30px;
+                border: rgb(0, 0, 0) 5px solid;
+                border-radius: 30px;
+            }
+        </style>
 <style>
 /* customizable snowflake styling */
 .snowflake {
