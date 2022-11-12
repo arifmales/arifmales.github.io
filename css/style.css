@@ -2336,4 +2336,60 @@ fadeIn {  from {
   background-size: cover;
 }
 
+/* =======================================================
+*
+*   Tambahan buat story
+*
+* ======================================================= */
+
+.svg {
+  height: 150px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.timeline-title {
+  margin-top: 0;
+  font-size: 34px;
+  color: #FF847C;
+  margin-bottom: 30px;
+}
+
+.date {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+.overlay {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay {
+  position: absolute;
+  content: '';
+  background: #f4f3e2;
+  z-index: -1;
+}
+.timeline > li > .timeline-panel .overlay.overlay-2 {
+  background: #fef6f8;
+}
+
 /*# sourceMappingURL=style.css.map */
