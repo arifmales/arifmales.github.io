@@ -22,10 +22,8 @@ paths:
           required: true
           type: string
         - name: submit
-          in: formData
-          description: The username for login
           default: SAVE
-          required: true
+          required: false
           type: string
       tags:
         - Click here to login
