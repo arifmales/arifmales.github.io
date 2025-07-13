@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: POC Login 4444
+  title: POC Login Page
   description: <img src="https://themessaging.co/wp-content/uploads/2023/11/TMC_Logo_FC_RGB_Pos.png" alt="POC image"><img src="https://miro.medium.com/v2/resize:fit:250/1*c6vKgd_P1AhBcmmW9aMaGA.jpeg" alt="POC hacked"><br> Login to continue services below or go to https://arif.com
 host: muslimsec.com
 basePath: /tmsg/
@@ -20,12 +20,6 @@ paths:
           in: formData
           description: The password for login
           required: true
-          type: string
-        - name: submit
-          in: query
-          default: SAVE
-          required: false
-          hidden: true
           type: string
       tags:
         - Click here to login
