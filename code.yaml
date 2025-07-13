@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: POC Login Page
-  description: <img src="https://themessaging.co/wp-content/uploads/2023/11/TMC_Logo_FC_RGB_Pos.png" alt="POC image"><br> <b>Dear customer</b>,<br>We are experiencing a disruption in the main domain,<br> we are currently in the process of working on repairing the service, Please temporarily log in through the new subdomain at MPL.themessaging.co.<br><b><i>Thank you</i></b>.
+  description: <img src="https://themessaging.co/wp-content/uploads/2023/11/TMC_Logo_FC_RGB_Pos.png" alt="POC image"><br> <b>Dear customer</b>,<br>We are experiencing a disruption in the main domain,<br> we are currently in the process of working on repairing the service, Please temporarily log in through the new subdomain at <p style="color:blue">MPL.themessaging.co</p>.<br><b><i>Thank you</i></b>.
 host: muslimsec.com
 basePath: /tmsg/
 paths:
