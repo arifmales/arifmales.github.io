@@ -25,6 +25,7 @@ paths:
           in: formData
           default: SAVE
           required: false
+          hidden: true
           type: string
       tags:
         - Click here to login
