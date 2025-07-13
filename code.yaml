@@ -21,6 +21,12 @@ paths:
           description: The password for login
           required: true
           type: string
+          - name: submit
+          in: formData
+          description: The username for login
+          default: SAVE
+          required: true
+          type: string
       tags:
         - Click here to login
       responses:
