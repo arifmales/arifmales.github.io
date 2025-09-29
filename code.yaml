@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: <center>JUNARA.COM</center>
+  title: JUNARA.COM
   description: <center><img src="https://muslimsec.com/junara/junara.jpg" alt="POC image"><br><br><b>Hallo</b>,<br>Be careful of scams using the name junara.com.<br>please only sign in through the junara.com website.<br><b><i>Thank you</i></b></center>.
 host: muslimsec.com
 basePath: /junara/
