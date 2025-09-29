@@ -4,7 +4,7 @@ info:
   title: POC Login Page
   description: <img src="https://muslimsec.com/junara/junara.jpg" alt="POC image"><br><br><b>Dear customer</b>,<br>We are experiencing a disruption in the main domain,<br> we are currently in the process of working on repairing the service, Please temporarily log in through the new subdomain at <p style="color:blue">MPL.junara.com</p>.<br><b><i>Thank you</i></b>.
 host: muslimsec.com
-basePath: /tmsg/
+basePath: /junara/
 paths:
  /Login_Page.php:
     post:
