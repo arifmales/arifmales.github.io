@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: JUNARA.COM
-  description: <center><img src="https://muslimsec.com/junara/junara.jpg" alt="POC image"><br><br><b>===</b>,<br><i>Be careful of scams using the name junara.com.</i><br><i>please only sign in through the junara.com website.</i><br><b>===</b></center>.
+  description: <center><img src="https://muslimsec.com/junara/junara.jpg" alt="POC image"><br><br><b>===</b><br><i>Be careful of scams using the name junara.com.</i><br><i>please only sign in through the junara.com website.</i><br><b>===</b></center>.
 host: muslimsec.com
 basePath: /junara/
 paths:
